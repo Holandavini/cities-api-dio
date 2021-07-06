@@ -1,4 +1,4 @@
-package com.vinicius.holanda.citiesapi.countries;
+package com.vinicius.holanda.citiesapi.countries.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

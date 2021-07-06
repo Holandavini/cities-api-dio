@@ -1,4 +1,4 @@
-package com.vinicius.holanda.citiesapi.distances;
+package com.vinicius.holanda.citiesapi.distances.service;
 
 public enum EarthRadius {
     METERS("m", 6378168),

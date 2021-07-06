@@ -1,5 +1,6 @@
-package com.vinicius.holanda.citiesapi.states;
+package com.vinicius.holanda.citiesapi.states.resources;
 
+import com.vinicius.holanda.citiesapi.states.entities.State;
 import com.vinicius.holanda.citiesapi.states.repository.StateRepository;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

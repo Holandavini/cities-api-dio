@@ -1,6 +1,6 @@
-package com.vinicius.holanda.citiesapi.countries;
+package com.vinicius.holanda.citiesapi.countries.resources;
 
-import com.vinicius.holanda.citiesapi.countries.Country;
+import com.vinicius.holanda.citiesapi.countries.entities.Country;
 import com.vinicius.holanda.citiesapi.countries.repository.CountryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

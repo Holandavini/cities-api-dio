@@ -1,6 +1,6 @@
-package com.vinicius.holanda.citiesapi.states;
+package com.vinicius.holanda.citiesapi.states.entities;
 
-import com.vinicius.holanda.citiesapi.countries.Country;
+import com.vinicius.holanda.citiesapi.countries.entities.Country;
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
 import java.util.List;
 import javax.persistence.Basic;
@@ -22,9 +22,10 @@ import org.hibernate.annotations.TypeDefs;
 })
 public class State {
 
-    @Id
+
     private Long id;
 
+    @Id
     @Column(name = "nome")
     private String name;
 

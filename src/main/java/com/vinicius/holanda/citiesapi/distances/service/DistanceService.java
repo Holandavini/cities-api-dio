@@ -4,7 +4,6 @@ import java.util.Arrays;
 import java.util.List;
 import com.vinicius.holanda.citiesapi.cities.entities.City;
 import com.vinicius.holanda.citiesapi.cities.repository.CityRepository;
-import com.vinicius.holanda.citiesapi.distances.EarthRadius;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.data.geo.Point;

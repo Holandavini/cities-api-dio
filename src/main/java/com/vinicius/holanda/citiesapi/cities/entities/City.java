@@ -37,6 +37,7 @@ public class City {
     private Point location;
 
     public City() {
+
     }
 
     /**
@@ -55,7 +56,7 @@ public class City {
         this.uf = uf;
         this.ibge = ibge;
         this.geolocation = geolocation;
-        //this.location = location;
+        this.location = location;
     }
 
     public Long getId() {

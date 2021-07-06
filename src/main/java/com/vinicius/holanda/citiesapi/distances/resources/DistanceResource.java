@@ -1,4 +1,4 @@
-package com.vinicius.holanda.citiesapi.distances;
+package com.vinicius.holanda.citiesapi.distances.resources;
 
 import com.vinicius.holanda.citiesapi.distances.service.DistanceService;
 import org.slf4j.Logger;
